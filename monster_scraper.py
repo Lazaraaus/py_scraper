@@ -29,19 +29,19 @@ def scraper_monster(pages, location='&where=United-States', position='q=software
     soup2 = BeautifulSoup(str(job_summaries), 'html.parser')
 
     # Select text span from tags with class 'company'
-    jobs = soup2.select(".company > span")
+    company = soup2.select(".company > span")
     # Select text span from tags with class 'location'
     locations = soup2.select(".location > span")
     # Select h2 tag with class 'title' from tags with class 'summary'
     titles = soup2.select(".title > a")
 
     # Zip together titles, job and location lists and print results 
-    for i, j, k in zip(titles, jobs, locations):
+    for i, j, k in zip(titles, company, locations):
         print(i.text + j.text + "," + k.text + "\n")
 
     # Print number of total jobs returned 
     print(num_jobs.string)
-    print(f"The number of jobs in this list is {len(jobs)}")
+    print(f"The number of jobs in this list is {len(company)}")
     print(f"The number of locations in this list is {len(locations)}")
     print(f"The number of job titles in this list is {len(titles)}")
 

@@ -10,14 +10,14 @@ from .models import CustomUser
 class CustomUserCreationForm(UserCreationForm):
     # Create a Meta class
     class Meta(UserCreationForm):
-        # Override the default model (and fields) 
+        # Set model and fields to our custom values 
         model = CustomUser
-        fields = UserCreationForm.Meta.fields + ('position', 'searching', 'skills')
+        fields = ('username',  'email', 'position', 'searching', 'skills')
 
 # Custom admin change form class
 class CustomUserChangeForm(UserChangeForm):
     # Meta class 
     class Meta:
         model = CustomUser
-        fields = UserChangeForm.Meta.fields 
+        fields = ('username', 'email', 'position', 'searching', 'skills')
 

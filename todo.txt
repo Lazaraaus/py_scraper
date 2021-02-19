@@ -1,0 +1,6 @@
+A.) Turn indeed + monster scraper scripts into functions 
+B.) Refactor those functions to handle pagination
+C.) Configure scripts to take filter input
+		: location, job_title, salary_range, company
+		: (later) sentiment
+D.) Configure to return results in JSON format

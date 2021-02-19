@@ -44,9 +44,14 @@ for sal in sal_list:
     #Add the salary to the dictionary using the company name as a key 
     comp_with_salary[comp_name[0].text.lstrip()] = sal.text.lstrip()
 
-# Print the dictionary of all companies that have salary info
-print(comp_with_salary)
 
 # Zip together and print titles, companies, summaries, and locations
 for i, j, k, l in zip(job_titles, companies, job_summaries, job_locations):
-    print(i.text.lstrip() + "\n" + j.text.lstrip() + "\n" + k.text.strip() + "\n" + l.text.lstrip() + "\n")
+    # Get key to comp_with_salary dict
+    company_key = j.text.lstrip()
+    # If key in dict, print salary info along with job info 
+    if company_key in comp_with_salary.keys():
+        print(i.text.lstrip() + "\n" + j.text.lstrip() + "\n" + comp_with_salary[company_key] + "\n" + k.text.strip() + "\n" + l.text.lstrip() + "\n")
+    # Else just print job info
+    else:
+        print(i.text.lstrip() + "\n" + j.text.lstrip() + "\n" + k.text.strip() + "\n" + l.text.lstrip() + "\n")

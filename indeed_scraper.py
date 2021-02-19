@@ -77,3 +77,9 @@ def scraper(pages, location='&l=United+States', position='q=software+developer')
         print("Its done!") 
 
 scraper(2)
+
+"""
+Indeed is scraped extremely well by BS4 due to its non-dynamic nature. This section of code here will serve as a basis for the static web scraper functionality later on. 
+
+Longitudinally this functionality is going to exist in a Django back-end that will serve a Vue front-end
+"""

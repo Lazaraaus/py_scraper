@@ -1,9 +1,40 @@
-TODO:
-C.) Configure scripts to take filter input
-		: location, job_title, salary_range, company
-		: (later) sentiment
-D.) Configure to return results in JSON format
+###########
+#	 TODO:  #
+###########	
+		Scraper:
+			C.) Configure scripts to take filter input
+						: location, job_title, salary_range, company
+						: (later) sentiment
+			D.) Configure to return results in JSON format
 
-DONE:
-	A.) Turn indeed + monster scraper scripts into functions
-	B.) Refactor those functions to handle pagination
+		Django:
+			D.) Add Models for job information
+			E.) Add Bulma CSS 
+			F.) Password Change + Reset + Email 
+			G.) Functionality for Job Info (Create, Read, Update, Ignore)
+
+		Vue:
+			A.) Complete (good) Vue tut (lol, templates for now) 
+			B.) Implement 1 Server Django/Vue back-end/front-end 
+
+		NLTK + ML:
+			A.) Dig up old Sentiment Analysis project
+			B.) Extend it to analyze Twitter, Reddit, Facebook info
+    	   -------------------------------------------------	
+			A.) Dig up old Machine Learning project from EECS 349 
+			B.) Extend it to make predictions on potential job salaries 
+			C.) Extend it to work with NLTK sentiment/textual analysis 
+
+###########
+#	 DONE:  #
+###########	
+		Scraper:
+			A.) Turn indeed + monster scraper scripts into functions
+			B.) Refactor those functions to handle pagination
+	
+		Django:
+			A.) Start Django project for back-end 
+			B.) Set up custom user model
+			C.) User Auth logic + User Auth templates 
+		Vue:
+		NLTK:

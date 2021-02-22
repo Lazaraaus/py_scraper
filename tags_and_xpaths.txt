@@ -1,0 +1,20 @@
+Monster:
+	Xpaths:
+		Job-Card(results container): //div[@id='SearchResults']/section[index]
+		Note: The last element in the path is the index of job-card-content
+
+		Job Info(content container): //div[@id='tab-details']/div[@id='JobBody']/div/div[@id='JobDescription']
+		Note: returns div with information about job
+
+		Company Info Button(content container): //div[@id='JobPreview']/div/ul[@role='tablist']/li[3]
+		Note: Also is the xpath for Highlight info button replace li[3] with li[2]
+
+		Company Info(content container): //div[@id='AboutCompany']/div[@id='AboutCompanyDescription']
+						and 
+		Company Profile Link(content container): //div[@id='AboutCompany']/a[@id='AboutCOmpanyProfileLink']
+		Note: Not all jobs have company info and link to Monster company profile
+
+		Job Posted Info(content container): //div[@id='JobSummary']/div/section[2]/dl
+		Note: -Not consistent, somtimes in section[3]/section[4], needs to grab all text data and check if 'Posted' is contained
+					-Needs to have highlights button selected first, see Company Info Button
+

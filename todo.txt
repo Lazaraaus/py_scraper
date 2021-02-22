@@ -19,11 +19,13 @@
 
 		NLTK + ML:
 			A.) Dig up old Sentiment Analysis project
-			B.) Extend it to analyze Twitter, Reddit, Facebook info
+			B.) Extend it to analyze Twitter, Reddit, Facebook info for jobs
     	   -------------------------------------------------	
 			A.) Dig up old Machine Learning project from EECS 349 
 			B.) Extend it to make predictions on potential job salaries 
 			C.) Extend it to work with NLTK sentiment/textual analysis 
+		
+		MISC:
 
 ###########
 #  DONE:  #
@@ -31,10 +33,16 @@
 		Scraper:
 			A.) Turn indeed + monster scraper scripts into functions
 			B.) Refactor those functions to handle pagination
-	
+			E.) Collct xpaths for relevant elements on Monster's website
+			F.) Write pseudocode for monster_selenium_scraper.py
 		Django:
 			A.) Start Django project for back-end 
 			B.) Set up custom user model
 			C.) User Auth logic + User Auth templates 
 		Vue:
 		NLTK:
+
+		MISC:
+			A.) Setup Selenium w/ Firefox & Chrome
+			B.) Gain understanding of py_selenium & xpaths. 
+		

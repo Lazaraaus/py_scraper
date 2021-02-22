@@ -1,5 +1,5 @@
 ###########
-#	 TODO:  #
+#  TODO:  #
 ###########	
 		Scraper:
 			C.) Configure scripts to take filter input
@@ -26,7 +26,7 @@
 			C.) Extend it to work with NLTK sentiment/textual analysis 
 
 ###########
-#	 DONE:  #
+#  DONE:  #
 ###########	
 		Scraper:
 			A.) Turn indeed + monster scraper scripts into functions

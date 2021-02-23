@@ -35,6 +35,8 @@
 			B.) Refactor those functions to handle pagination
 			E.) Collct xpaths for relevant elements on Monster's website
 			F.) Write pseudocode for monster_selenium_scraper.py
+			H.) Create selenium script, Isolate neccessary, and create parser skeleton 
+			I.) Created Data Structure Skeleton 
 		Django:
 			A.) Start Django project for back-end 
 			B.) Set up custom user model
@@ -45,4 +47,4 @@
 		MISC:
 			A.) Setup Selenium w/ Firefox & Chrome
 			B.) Gain understanding of py_selenium & xpaths. 
-		
+			C.) Cleaned up xpaths 

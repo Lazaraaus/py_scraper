@@ -24,6 +24,7 @@
 			A.) Dig up old Machine Learning project from EECS 349 
 			B.) Extend it to make predictions on potential job salaries 
 			C.) Extend it to work with NLTK sentiment/textual analysis 
+			D.) NLTK String Processing, Parsing, and Semantic Interpretation for Job Description Data
 		
 		MISC:
 
@@ -35,12 +36,15 @@
 			B.) Refactor those functions to handle pagination
 			E.) Collct xpaths for relevant elements on Monster's website
 			F.) Write pseudocode for monster_selenium_scraper.py
-			H.) Create selenium script, Isolate neccessary, and create parser skeleton 
+			H.) Create selenium script, Isolate neccessary data, and create parser skeleton 
 			I.) Created Data Structure Skeleton 
+			J.) Finished H.) and I.) to completion
+
 		Django:
 			A.) Start Django project for back-end 
 			B.) Set up custom user model
-			C.) User Auth logic + User Auth templates 
+			C.) User Auth logic + User Auth templates
+
 		Vue:
 		NLTK:
 
